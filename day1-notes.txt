@@ -27,3 +27,11 @@ Today I learned:
 I practiced also:
 ping
 nslookup
+
+
+Practice Platform:
+TryHackMe
+Labs:
+- TryHackMe: What is Networking
+- TryHackMe: How Websites Work
+- TryHackMe: Linux Fundamentals Part 1
