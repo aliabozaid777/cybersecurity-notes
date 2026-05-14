@@ -1,0 +1,29 @@
+Day 1 Notes
+
+Networking:
+IP = device address
+Port = service door
+DNS = converts domain to IP
+
+Tools:
+Wireshark = monitor traffic
+Nmap = scan ports/services
+
+Linux Commands:
+ls
+cd
+cat
+pwd
+
+Web:
+HTML Injection
+Sensitive Data Exposure
+
+Today I learned:
+- Nmap creates traffic
+- Wireshark captures packets
+- DNS converts domain to IP
+
+I practiced also:
+ping
+nslookup
