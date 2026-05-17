@@ -1,0 +1,61 @@
+Linux:
+ls = list files
+cd = change directory
+pwd = current path
+cat = read file
+grep = search text
+find = search files
+chmod = change permissions
+chown = change owner
+history = previous commands
+
+Permissions:
+7 = rwx
+6 = rw-
+5 = r-x
+4 = r--
+
+Processes:
+ps aux = show processes
+top / htop = monitor system
+kill PID = stop process
+& = run in background
+jobs = background jobs
+fg = foreground
+
+Networking:
+ip a = show IP
+ping = test connection
+nslookup = DNS lookup
+ss -tulnp = open ports
+curl = HTTP requests
+curl -I = headers only
+
+Services:
+systemctl status ssh
+start / stop / enable services
+
+Netcat:
+nc -lvnp 4444 = listener
+nc IP PORT = connect
+used for file transfer and networking
+
+HTTP:
+python3 -m http.server 8000
+127.0.0.1 = localhost
+Port = service door
+
+Nmap:
+-sS = SYN scan
+-sU = UDP scan
+-sV = service version
+-O = OS detection
+-A = aggressive scan
+-p- = all ports
+-vv = verbose
+
+Important:
+Service running = port open
+Service stopped = port closed
+PID = process ID
+SSH default port = 22
