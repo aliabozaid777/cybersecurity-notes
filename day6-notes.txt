@@ -1,0 +1,38 @@
+# Day Notes
+
+# Web Server
+python3 -m http.server 8080 = start a simple web server
+
+# Nmap
+nmap 127.0.0.1 -p 8080 = scan specific port
+nmap -sV 127.0.0.1 -p 8080 = detect service version
+
+# curl
+curl -I http://127.0.0.1:8080 = show headers only
+curl http://127.0.0.1:8080/file.txt = show file content
+
+# HTTP Headers
+Server = information about the web server
+Content-Type = type of content
+Content-Length = size of response data
+
+# HTTP Status Codes
+200 OK = request successful
+301 Redirect = moved to another path
+404 Not Found = file or page not found
+
+# Directory Listing
+Directory Listing = server shows folder contents to visitors
+
+# Files and Folders
+/backup/ = shows folder contents
+/backup/old.txt = shows file content
+
+# robots.txt
+robots.txt gives instructions to search engines
+robots.txt does not protect files or folders
+
+# Security Notes
+Directory Listing can be dangerous if sensitive files are exposed
+Sensitive files should not be inside the web root
+Real protection needs permissions, authentication, or server configuration
