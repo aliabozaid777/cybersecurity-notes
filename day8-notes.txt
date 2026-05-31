@@ -1,3 +1,5 @@
+#day notes 
+
 Today I learned how URL parameters work and how data can be sent through the URL using a GET request.
 
 # Simple Web Form
