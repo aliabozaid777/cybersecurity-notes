@@ -1,0 +1,50 @@
+# Day Notes
+
+# Topic
+Today I practiced a basic network scan and learned how to turn Nmap results into a simple security report.
+
+# Start a Test Web Server
+python3 -m http.server 8080 --bind 0.0.0.0
+
+This starts a simple Python web server on port 8080.
+
+# Basic Nmap Scan
+nmap 127.0.0.1 -p 8080
+
+This checks if port 8080 is open or closed.
+
+# Service Version Scan
+nmap -sV 127.0.0.1 -p 8080
+
+-sV detects the service and version running on the open port.
+
+# Result
+Port: 8080
+State: open
+Service: http
+Version: SimpleHTTPServer 0.6 (Python 3.13.12)
+
+# Important Difference
+Normal scan:
+Shows if the port is open.
+
+-sV scan:
+Shows if the port is open and what service/version is running.
+
+# Report Writing Practice
+Port 8080 is open and running Python SimpleHTTPServer 0.6 with Python 3.13.12. This service may expose files from the directory where it was started, so sensitive files should not be stored there.
+
+# Useful Report Template
+Port X is open and running SERVICE.
+Risk: This may expose or allow access to something.
+Recommendation: Close the service if it is not needed, or secure it properly.
+
+# Important Terms
+open = service is running and accepting connections
+closed = no service is running on that port
+service = program running on a port
+version = specific release or technology information
+sensitive files = passwords, configs, backups, private data
+
+# Final Idea
+A good scan is not only about running tools. I should understand the result and explain the risk and recommendation clearly.
