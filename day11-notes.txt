@@ -1,0 +1,58 @@
+# Day Notes
+
+# Topic
+Today I scanned an HTTP service running on my phone from Kali Linux.
+
+# Localhost vs Local IP
+127.x.x.x = the same device only
+192.168.x.x = another device on the local network
+
+# Phone Scan
+Phone IP:
+192.168.100.10
+
+Basic scan:
+nmap 192.168.100.10 -p 8080
+
+Service detection:
+nmap -sV 192.168.100.10 -p 8080
+
+# Result
+Port 8080/tcp was open.
+The service was HTTP-based and identified as SHTP/3.x.
+
+# Manual Verification
+curl -I http://192.168.100.10:8080
+
+This showed:
+- 200 OK
+- Content-Type
+- Content-Length
+- Server information
+
+curl http://192.168.100.10:8080
+
+This showed the HTML content of the page.
+
+I also opened the service in the Kali browser and confirmed that it was accessible.
+
+# Security Report
+
+Finding:
+Port 8080/tcp is open on 192.168.100.10 and is running an HTTP service identified as SHTP/3.x.
+
+Risk:
+The service appears to provide a web-based file browser. Other devices on the same network may access shared files.
+
+Severity:
+Low
+
+Recommendation:
+Disable the service when it is not needed. Do not share sensitive files through it, and use it only on trusted networks.
+
+# Final Idea
+Nmap finds the open port.
+Nmap -sV identifies the service.
+curl -I displays headers.
+curl displays page content.
+The browser confirms that the service is accessible.
