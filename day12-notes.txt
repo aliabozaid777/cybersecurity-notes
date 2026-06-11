@@ -1,0 +1,46 @@
+# Day Notes
+
+# Topic
+Today I learned how to discover devices on my local network and scan specific ports.
+
+# Find Network Range
+ip route
+
+My network range was:
+192.168.100.0/24
+
+# Discover Devices
+nmap -sn 192.168.100.0/24
+
+-sn = discover active devices without scanning ports
+
+The scan found 5 active devices.
+
+# Important IPs
+192.168.100.1 = probably the router
+192.168.100.8 = Kali Linux
+192.168.100.10 = my phone
+
+# Scan Common Ports
+nmap -sV 192.168.100.10 -p 22,80,443,8080
+
+# Port Meanings
+22 = SSH
+80 = HTTP
+443 = HTTPS
+8080 = alternative web service
+
+# Result
+22/tcp closed
+80/tcp closed
+443/tcp closed
+8080/tcp closed
+
+# Meaning
+The phone was connected to the network, but no service was listening on these ports.
+
+# Final Idea
+nmap -sn = discover active devices
+nmap -sV = detect port state, service, and version
+open = a service is listening
+closed = no service is listening
