@@ -51,5 +51,5 @@ This repository tracks my study journey toward a **cybersecurity job by Septembe
 
 ## Contact
 
-- **Email:** aliabozaid1.1173@gmail.com  
+- **Email:** aliabozaid.1173@gmail.com  
 - **LinkedIn:** *(coming soon)*  
