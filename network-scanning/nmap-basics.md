@@ -1,38 +1,36 @@
-# Nmap Basics
-Day 1 Notes
+# Nmap Basics  
+*Day 1 Notes*
 
-Networking:
-IP = device address
-Port = service door
-DNS = converts domain to IP
+---
 
-Tools:
-Wireshark = monitor traffic
-Nmap = scan ports/services
+## Networking 概念
 
-Linux Commands:
+| مصطلح | الوصف المختصر |
+|-------|---------------|
+| **IP** | عنوان الجهاز |
+| **Port** | «باب الخدمة» الذي يستقبل الاتصال |
+| **DNS** | يحوِّل النطاق (domain) إلى عنوان IP |
+
+---
+
+## الأدوات المستخدمة
+
+- **Wireshark **— مراقبة حركة المرور (Packets)
+- **Nmap **— فحص المنافذ والخدمات
+
+---
+
+## أوامر Linux
+
+```bash
+# استعراض الملفات
 ls
-cd
-cat
+
+# الانتقال بين المجلدات
+cd /path/to/dir
+
+# عرض محتوى ملف
+cat filename.txt
+
+# إظهار المسار الحالي
 pwd
-
-Web:
-HTML Injection
-Sensitive Data Exposure
-
-Today I learned:
-- Nmap creates traffic
-- Wireshark captures packets
-- DNS converts domain to IP
-
-I practiced also:
-ping
-nslookup
-
-
-Practice Platform:
-TryHackMe
-Labs:
-- TryHackMe: What is Networking
-- TryHackMe: How Websites Work
-- TryHackMe: Linux Fundamentals Part 1
