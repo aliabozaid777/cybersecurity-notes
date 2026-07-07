@@ -105,19 +105,3 @@
 - التطبيق العملي يجب أن يكون فقط على لابات قانونية أو بيئات أملكها.
 
 ---
-
-## أسئلة مراجعة
-
-1. ما الفرق بين Client و Server؟
-2. ما وظيفة قاعدة البيانات؟
-3. ما الفرق بين HTTP و HTTPS؟
-4. ما الفرق بين Request و Response؟
-5. لماذا تعتبر Cookies و Sessions مهمة في Web Security؟
-
----
-
-## المكان المقترح داخل GitHub
-
-```text
-cybersecurity-notes/web-security/introduction-to-web-application-security.md
-```
