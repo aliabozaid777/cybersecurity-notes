@@ -209,17 +209,3 @@ The server should verify that the authenticated user is authorized to access the
   https://owasp.org/www-community/Broken_Access_Control
 
 ---
-
-## Suggested GitHub Path
-
-```text
-web-security/idor.md
-```
-
-## Suggested Commit Message
-
-```bash
-git add web-security/idor.md
-git commit -m "Add IDOR summary notes"
-git push origin main
-```
