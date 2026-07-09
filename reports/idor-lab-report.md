@@ -152,11 +152,3 @@ If the answer is not checked by the server, the application may be vulnerable.
 - Always document IDOR findings with: request, modified request, response, impact, and recommended fix.
 
 ---
-
-## 10. Suggested Commit
-
-```bash
-git add reports/idor-lab-report.md
-git commit -m "Add IDOR lab report"
-git push origin main
-```
