@@ -458,17 +458,3 @@ Valid session + valid CSRF token + correct HTTP method + server-side authorizati
 - In real work, never send CSRF exploits to real users. Test with approved accounts only.
 
 ---
-
-## Suggested GitHub Path
-
-```text
-web-security/csrf-notes.md
-```
-
-## Suggested Commit Message
-
-```bash
-git add web-security/csrf-notes.md
-git commit -m "Add CSRF notes and lab summaries"
-git push origin main
-```
