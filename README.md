@@ -9,6 +9,18 @@
 
 This repository tracks my study journey toward a **cybersecurity job by September 2026**. It contains structured notes, labs, CTF write‑ups, and mini‑projects that reflect the skills demanded in entry‑level security roles.
 
+Featured Project
+
+IDOR Vulnerability Analysis
+
+Analyzed a broken access-control vulnerability in an authorized PortSwigger lab using Burp Suite.
+
+Finding: The server did not verify resource ownership, allowing access to another user's chat transcript.
+
+Skills: Burp Suite · HTTP Analysis · Access Control · Vulnerability Reporting
+
+"Quick Summary" (web-security/idor-summary.md) · "Full Report" (reports/idor-lab-report.md)
+
 ## Table of Contents
 - [Directory structure](#directory-structure)
 - [Roadmap](#roadmap)
