@@ -1,67 +1,64 @@
-# Cybersecurity Notes
+# Cybersecurity Portfolio
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/aliabozaid777/cybersecurity-notes)
 ![Repo size](https://img.shields.io/github/repo-size/aliabozaid777/cybersecurity-notes)
 
----
+## About Me
 
-## About
+I am a cybersecurity student building practical skills in networking, Linux, web application security, and vulnerability reporting.
 
-This repository tracks my study journey toward a **cybersecurity job by September 2026**. It contains structured notes, labs, CTF write‑ups, and mini‑projects that reflect the skills demanded in entry‑level security roles.
+My current goal is to become ready for an entry-level cybersecurity role or internship before September 2026.
 
-Featured Project
+## Featured Project
 
-IDOR Vulnerability Analysis
+### IDOR Vulnerability Analysis
 
-Analyzed a broken access-control vulnerability in an authorized PortSwigger lab using Burp Suite.
+Analyzed a broken access-control vulnerability in an authorized PortSwigger Web Security Academy lab using Burp Suite.
 
-Finding: The server did not verify resource ownership, allowing access to another user's chat transcript.
+- **Finding:** The server did not verify resource ownership.
+- **Impact:** An unauthorized user could access another user's chat transcript.
+- **Tools:** Burp Suite, Proxy, HTTP History, Repeater.
+- **Skills:** HTTP Analysis, Access Control Testing, Vulnerability Reporting.
 
-Skills: Burp Suite · HTTP Analysis · Access Control · Vulnerability Reporting
+[View Quick Summary](web-security/idor-summary.md) · [View Full Report](reports/idor-lab-report.md)
 
-"Quick Summary" (web-security/idor-summary.md) · "Full Report" (reports/idor-lab-report.md)
+## Skills
 
-## Table of Contents
-- [Directory structure](#directory-structure)
-- [Roadmap](#roadmap)
-- [How to use](#how-to-use)
-- [Resources](#resources)
-- [Contact](#contact)
+- Linux fundamentals
+- Networking fundamentals
+- Nmap and network scanning
+- Burp Suite
+- HTTP request and response analysis
+- OWASP Top 10
+- Vulnerability reporting
 
-## Directory structure
+## Repository Structure
 
-| Folder | What’s inside |
-|--------|---------------|
-| `network-scanning/` | Nmap cheatsheets, masscan, enum4linux… |
-| `web-security/` | OWASP Top 10 labs, Burp Suite notes |
-| `osint/` | OSINT tools & methodologies |
-| `ctf/` | Challenge write‑ups, flags, scripts |
-| `reports/` | Professional‑style vulnerability reports |
+| Folder | Content |
+|---|---|
+| `network-scanning/` | Networking and network-scanning notes |
+| `web-security/` | Web vulnerability notes and lab summaries |
+| `reports/` | Detailed vulnerability reports |
+| `osint/` | OSINT notes and methodologies |
+| `ctf/` | Future CTF challenge write-ups |
 
-## Roadmap
+## Learning Roadmap
 
-| Stage | Status | Notes |
-|-------|--------|-------|
-| Fundamentals (Linux, Networking) | ✅ Completed |  |
-| Web Security (OWASP Top 10) | 🔄 In progress |  |
-| Pen‑Testing & Scripting | ⏳ Planned |  |
-| Bug Bounty & Reporting | ⏳ Planned |  |
+| Stage | Status |
+|---|---|
+| Linux and Networking Fundamentals | ✅ Completed |
+| Web Application Security | 🔄 In Progress |
+| Penetration Testing and Scripting | ⏳ Planned |
+| Bug Bounty and Professional Reporting | ⏳ Planned |
 
-## How to use
+## Training Platforms
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/aliabozaid777/cybersecurity-notes.git
-   ```
-2. Browse to the topic folder that interests you.  
-3. Feel free to open **Issues** or **Pull Requests** for suggestions or corrections.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [TryHackMe](https://tryhackme.com)
 
-## Resources
-
-- [TryHackMe](https://tryhackme.com) — rooms completed list in each sub‑folder  
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security)  
+> All security testing documented in this repository is performed only in authorized training environments.
 
 ## Contact
 
-- **Email:** aliabozaid.1173@gmail.com  
-- **LinkedIn:** *(coming soon)*  
+- **Email:** aliabozaid.1173@gmail.com
+- **LinkedIn:** Coming soon
