@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio
+# Cybersecurity Notes & Lab Reports
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/aliabozaid777/cybersecurity-notes)
 ![Repo size](https://img.shields.io/github/repo-size/aliabozaid777/cybersecurity-notes)
@@ -61,4 +61,4 @@ Analyzed a broken access-control vulnerability in an authorized PortSwigger Web 
 ## Contact
 
 - **Email:** aliabozaid.1173@gmail.com
-- - **LinkedIn:** [Ali Abozaid](https://www.linkedin.com/in/ali-abozaid-b84ab3423/)
+- **LinkedIn:** [Ali Abozaid](https://www.linkedin.com/in/ali-abozaid-b84ab3423/)
