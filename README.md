@@ -61,4 +61,4 @@ Analyzed a broken access-control vulnerability in an authorized PortSwigger Web 
 ## Contact
 
 - **Email:** aliabozaid.1173@gmail.com
-- **LinkedIn:** Coming soon
+- - **LinkedIn:** [Ali Abozaid](https://www.linkedin.com/in/ali-abozaid-b84ab3423/)
